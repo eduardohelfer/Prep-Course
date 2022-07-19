@@ -35,7 +35,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return(x+y);
+  var resultado = x + y;
+  return(resultado);
 }
 
 function resta(x, y) {
@@ -99,7 +100,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num < 50){
+  if(num > 50){
     return(true);
   }
   else
